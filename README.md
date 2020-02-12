@@ -92,7 +92,8 @@ To add style
 ``` swift
 Text("Hello World")
     .font(.largeTitle)
-    .foregroundColor(Color.green)
+    .foregroundColor(Color.green) //font color
+    .bold()
     .lineSpacing(50)
     .lineLimit(nil)
     .padding()
